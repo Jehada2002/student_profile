@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4e3; /* Light yellow */
+    margin: 0;
+    padding: 0;
+    color: #5a3e2b; /* Dark brown */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #a67c52; /* Brown */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #665846 3px solid; /* Dark brown */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #f8f4e3; /* Light yellow */
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #c9b697; /* Lighter shade of brown */
+}
+
+#main-form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border: #665846 1px solid; /* Dark brown */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+    color: #5a3e2b; /* Dark brown */
+}
+
+form input, form select, form textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #a67c52; /* Brown */
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background: #5a3e2b; /* Dark brown */
+}
+
+.table-container {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border: #665846 1px solid; /* Dark brown */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px; /* Smaller font size for the table */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #a67c52; /* Brown */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+a {
+    color: #5a3e2b; /* Dark brown */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.auth-form, .crud-form {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #665846;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-form h2, .crud-form h2 {
+    margin-bottom: 20px;
+    color: #5a3e2b;
+}
+
+.auth-form form, .crud-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label, .crud-form label {
+    margin-bottom: 5px;
+    color: #5a3e2b;
+    text-align: left;
+}
+
+.auth-form input, .crud-form input, .crud-form select, .crud-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form input[type="submit"], .crud-form input[type="submit"] {
+    background: #a67c52; /* Brown */
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-form input[type="submit"]:hover, .crud-form input[type="submit"]:hover {
+    background: #5a3e2b; /* Dark brown */
+}
+
+.auth-form p, .crud-form p {
+    margin-top: 20px;
+}
+
+.auth-form a, .crud-form a {
+    color: #5a3e2b;
+}
+
+.auth-form a:hover, .crud-form a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button.brown {
+    background-color: #8B4513;
+    color: white; /* Set font color to white */
+}
+
+.button.brown:hover {
+    background-color: #654321;
+}
